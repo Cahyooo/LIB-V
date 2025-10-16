@@ -8,11 +8,11 @@ function App() {
 
   const handleSend = async () => {
     if (!input.trim()) return;
+    const botReply = await sendMessageToChatbot(input, messages);
     setMessages((prev) => [...prev, { sender: "user", text: input }]);
-    const botReply = await sendMessageToChatbot(input);
     setMessages((prev) => [...prev, { sender: "bot", text: botReply }]);
     setInput("");
-    console.log(botReply); 
+    console.log(messages); 
   };
   return (
       <main
