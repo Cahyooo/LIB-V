@@ -4,7 +4,7 @@ import axios from "axios";
 
 // const API_URL = "http://localhost:5678/webhook-test/chatbot"; // UNTUK TESTING
 const API_URL = "http://localhost:5678/webhook/chatbot"; // UNTUK ACTIVE, BIAR JALAN TERUS TANPA DITERUS EKSEKUSI
-const OPENAI_KEY = "AIzaSyDl4fai728ClHS10Ef75D238_tNvvsDF4Q";
+// const OPENAI_KEY = "AIzaSyDl4fai728ClHS10Ef75D238_tNvvsDF4Q";
 
 export const sendMessageToChatbot = async (message, previousMessages = []) => {
   try {
