@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { sendMessageToChatbot } from "./n8n/Chatbot.service";
 import "./App.css";
 const SPLASH_KEY = "libv_splash_seen_v1";
@@ -182,7 +182,7 @@ export default function ChatUI() {
             onClick={() => setShowTechModal(true)}
             title="Teknologi yang digunakan"
           >
-            <div style={{ color: "white", fontWeight: 700 }}>Tech</div>
+            <div style={{ color: "white", fontWeight: 700 }}>Technology</div>
             <div className="question-circle" aria-hidden>
               ?
             </div>
@@ -203,7 +203,7 @@ export default function ChatUI() {
             >
               <div
                 className="message-bubble"
-                style={{ maxWidth: "75%", padding: 12 }}
+                style={{ maxWidth: "85%", padding: 12 }}
               >
                 {m.text}
               </div>
