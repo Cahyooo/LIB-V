@@ -2,3 +2,8 @@ VERSION NODE: v22.19.0
 VERSION VITE: ^7.1.7
 
 OTHER VERSION CHECK PACKAGE.JSON
+
+Cahya Winata - 2531163
+Sona Ria Ramadhani Sinaga - 2531136
+Septa Banyu Prasetyo - 2531180
+Yusuf Saba - 2531160
